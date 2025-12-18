@@ -1,0 +1,27 @@
+2025-12-10 16:36:20,970 - INFO - root - Loading model
+2025-12-10 16:36:20,982 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device_name: cuda:0
+2025-12-10 16:36:20,982 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: ./model
+2025-12-10 16:36:22,326 - INFO - sentence_transformers.SentenceTransformer - 1 prompt is loaded, with the key: query
+2025-12-10 16:36:22,328 - INFO - root - Using device: cuda
+2025-12-10 16:36:22,328 - INFO - root - Starting training
+2025-12-10 16:37:00,399 - INFO - root - Loading model
+2025-12-10 16:37:00,410 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device_name: cuda:0
+2025-12-10 16:37:00,411 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: ./model
+2025-12-10 16:37:01,774 - INFO - sentence_transformers.SentenceTransformer - 1 prompt is loaded, with the key: query
+2025-12-10 16:37:01,777 - INFO - root - Using device: cuda
+2025-12-10 16:37:01,777 - INFO - root - Starting training
+2025-12-10 16:37:02,660 - INFO - sentence_transformers.SentenceTransformer - Save model to D:\TRAEAI_DATA\ModelZoo\Qwen3-Embedding-0.6B\output_qwen3_finetuned
+2025-12-10 16:37:25,142 - INFO - root - Model saved to: D:\TRAEAI_DATA\ModelZoo\Qwen3-Embedding-0.6B\output_qwen3_finetuned
+2025-12-10 16:40:15,360 - INFO - root - Loading model
+2025-12-10 16:40:15,372 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device_name: cuda:0
+2025-12-10 16:40:15,372 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: ./model
+2025-12-10 16:40:16,726 - INFO - sentence_transformers.SentenceTransformer - 1 prompt is loaded, with the key: query
+2025-12-10 16:40:16,728 - INFO - root - Using device: cuda
+2025-12-10 16:40:16,888 - INFO - root - Loaded dataset with 3566 triplets
+2025-12-10 16:40:39,112 - INFO - root - Loading model
+2025-12-10 16:40:39,123 - INFO - sentence_transformers.SentenceTransformer - Use pytorch device_name: cuda:0
+2025-12-10 16:40:39,123 - INFO - sentence_transformers.SentenceTransformer - Load pretrained SentenceTransformer: ./model
+2025-12-10 16:40:40,474 - INFO - sentence_transformers.SentenceTransformer - 1 prompt is loaded, with the key: query
+2025-12-10 16:40:40,476 - INFO - root - Using device: cuda
+2025-12-10 16:40:40,637 - INFO - root - Loaded dataset with 3566 triplets
+2025-12-10 16:40:40,638 - INFO - root - Starting training
