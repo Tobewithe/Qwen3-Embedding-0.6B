@@ -1,7 +1,7 @@
 import pandas as pd
 
 # 读取原始 CSV 文件
-df = pd.read_csv('test.csv')
+df = pd.read_csv('train.csv')
 # 初始化空列表用于存储新行
 new_rows = []
 # 遍历每一行
@@ -48,5 +48,5 @@ for _, row in df.iterrows():
 output_df = pd.DataFrame(new_rows, columns=['subreddit','rule','sample','label','row_id'])
 output_df['ID'] = range(1, len(output_df) + 1)
 # 保存到新 CSV 文件
-output_df.to_csv('processed_test.csv', index=False)
+output_df.to_csv('processed_train.csv', index=False)
 
