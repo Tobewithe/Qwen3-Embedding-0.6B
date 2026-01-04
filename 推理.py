@@ -114,7 +114,8 @@ def classify_from_csv(
     texts, row_ids = build_texts_from_csv(csv_path, limit)
     preds, confs = predict(model, tokenizer, texts, device, max_length=max_length)
     return preds, confs, texts, row_ids
-if __name__ == "__main__":
+
+def main():
     preds, confs, texts, row_ids = classify_from_csv("./cls_output", "test_cleaned.csv", device="cuda", max_length=512, fp16=False, limit=10)
     for i, text in enumerate(texts):
         pred = preds[i] if isinstance(preds, list) else preds
@@ -122,3 +123,6 @@ if __name__ == "__main__":
         print(f"文本: {text}")
         print(f"预测类别: {pred} | 置信度: {conf:.4f}\n")
         print(f"row_id: {row_ids[i]}\n")
+if __name__ == "__main__":
+    main()
+    

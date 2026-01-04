@@ -66,3 +66,5 @@ class ContrastiveCommunityDataset(Dataset):
         ex = InputExample(texts=[anchor, positive, negative])
         ex.meta = {"pos_id": int(pos_id), "neg_id": int(neg_id), "subreddit": str(subred), "rule": str(rule_text)}
         return ex
+
+

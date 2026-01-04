@@ -8,7 +8,7 @@ from sentence_transformers import (
     losses
 )
 from datasets import Dataset
-from step_04_加载数据 import ContrastiveCommunityDataset
+from dataload import ContrastiveCommunityDataset
 
 def configure_logging():
     logger = logging.getLogger()
